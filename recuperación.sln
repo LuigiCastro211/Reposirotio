@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{21E61628-1682-43A1-8469-B0DBE21523DD}"
+	ProjectSection(SolutionItems) = preProject
+		CastroLuisCarlos.html = CastroLuisCarlos.html
+		NHL.html = NHL.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E22D91BB-0A1D-40F0-BE63-F56398622C51}
+	EndGlobalSection
+EndGlobal

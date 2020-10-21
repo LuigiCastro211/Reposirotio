@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CastroLuisCarlos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body{
+            display: grid;
+            grid-auto-columns: 1fr fit-content(800px) 1fr;
+            grid-template-rows: auto;
+            grid-template-areas: 
+            "nav nav nav"
+            ". content .";
+        }
+        nav{
+            grid-area: nav;
+        }
+        #contenido{
+            grid-area:content;
+            display:grid ;
+            grid-auto-columns: 1fr 1fr;
+            grid-auto-rows: auto;
+            grid-template-areas:
+            "titulo ." 
+            "logo parrafo"
+            "logo parrafo";
+        }
+        p{
+            grid-area: parrafo;
+        }
+        #logo{
+            grid-area: logo;
+        }
+        h1{
+            grid-area: titulo;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="Hockey.html">Hockey<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="EHL.html">EHL <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="NHL.html">NHL<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="STICK.html">STICK<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="PUCK.html">PUCK<span class="sr-only">(current)</span></a>
+        </li>
+    </div>
+    </nav>
+    
+    <div id="contenido">
+        <h1>NHL</h1>
+        <p>La National Hockey League o NHL es una liga profesional norteamericana de hockey sobre hielo, formada por franquicias de Canadá y Estados Unidos.
+            Esta liga se fundó oficialmente el 26 de noviembre de 1917 en Montreal (Canadá), a partir de cuatro equipos procedentes de un campeonato anterior creado
+            en 1909, la National Hockey Association. Originalmente todos los clubes eran canadienses, hasta que en 1924 se expandió a Estados Unidos. Desde 1942 hasta
+            1967, la liga tuvo solamente seis equipos: los Boston Bruins, Chicago Blackhawks, Detroit Red Wings, Montreal Canadiens, Toronto Maple Leafs y New York Rangers.
+            La NHL aumentó la cantidad de equipos a 12 en la temporada 1967, 18 equipos en 1974 y 21 equipos en 1979, mientras mantenía una intensa rivalidad con la World
+            Hockey Association en la década de 1970. La NHL se disputa actualmente entre 31 equipos: siete de Canadá y 24 de Estados Unidos. La mitad de los jugadores de la
+            liga son canadienses, la cuarta parte son estadounidenses y los demás son extranjeros provenientes, en su mayoría, de Rusia, República Checa, Suecia y Finlandia.
+            El campeón de la fase final gana la Stanley Cup, el trofeo deportivo profesional más antiguo de Norteamérica creado en 1893. Los equipos más exitosos han sido
+            Montreal con 25 Stanley Cups, Toronto con 13, Detroit con 11, Boston y Chicago con 6, y Edmonton y Pittsburgh con 5.
+            La NHL está considerada por la Federación Internacional de Hockey sobre Hielo como la liga más importante del mundo en su deporte. Además es una de las cuatro
+            grandes ligas deportivas que existen en Estados Unidos junto a la NBA (baloncesto), la NFL (fútbol americano) y la MLB (béisbol).</p>
+        <img id="Logo" src="imagenes/NHL.jpg" alt="Logo">
+        
+    </div>
+    <!-- Código de javascript de bootstrap necesario para que funcionen los dropdowns -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</body>
+</html>
